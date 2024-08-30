@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right,white,grey);
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    text-shadow: goldenrod 1px 0 10px;;
+}
+.container{
+    height:15rem;
+    width:30rem;
+    margin:10% auto;
+    border-radius: 20px;
+    padding: 10px 10px;
+    display: flex;
+    gap:60px;
+    flex-wrap: wrap;
+}
+.danger-btn{
+    width:100%;
+    height: 60%;
+    background-color:crimson;
+    padding:5px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.safe-btn{
+    width:100%;
+    height: 60%;
+    background-color:greenyellow;
+    padding:5px 5px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media (max-width:500px){
+    body{
+        background-image: none;
+        background-color: rgb(182, 171, 171);
+    }
+    .danger-btn{
+        width:50%;
+        height: 40%;
+    }
+    .safe-btn{
+    width:50%;
+    height: 40%;
+    }
+}
